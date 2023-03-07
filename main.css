@@ -96,3 +96,11 @@ li:nth-child(5).fill-color a {
 .fa-odnoklassniki.fill-color {
   color: #f79620;
 }
+
+@media (max-width: 500px) {
+	.first, .second {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+	}
+}
